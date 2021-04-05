@@ -185,7 +185,6 @@ public class Tictactoe {
         showBoard(gameboard);
 
         do {
-
             // ask for move from the player in turn
             System.out.print("Player " + turn + ": ");
             int square = reader.nextInt();
