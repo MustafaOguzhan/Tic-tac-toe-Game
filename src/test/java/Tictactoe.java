@@ -14,8 +14,7 @@ public class Tictactoe {
         int ret = (startNum % 2 == 0) ? (1) : (2);
         return ret;
     }
-
-    /*
+        /*
      * showBoard
      */
     private static void showBoard (int[][] gameboard) {
